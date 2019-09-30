@@ -1,8 +1,10 @@
 {
   "extends": ["tslint:latest"],
   "rules": {
-    "quotemark": [true, "single"],
-    "semicolon": [true, "never"],
+    "quotemark": false,
+    "semicolon": false,
+    "max-line-length": false,
+    "unified-signatures": false,
     "object-literal-sort-keys": false,
     "object-literal-key-quotes": [true, "as-needed"],
     "member-access": false,
